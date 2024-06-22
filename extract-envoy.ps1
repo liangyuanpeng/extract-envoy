@@ -4,7 +4,7 @@ param(
 )
 
 $dockerUrl = "https://download.docker.com/win/static/stable/x86_64/docker-20.10.13.zip"
-$dockerImage = "envoyproxy/envoy-windows:v1.25.1"
+$dockerImage = "envoyproxy/envoy-windows:v1.25.11"
 
 # Check for administrator
 function Test-Admin {
